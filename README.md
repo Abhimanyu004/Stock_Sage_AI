@@ -29,8 +29,22 @@ Download the repository and extract it or clone the repository using the followi
 git clone https://github.com/Abhimanyu004/Stock_Sage_AI.git
 ```
 
-
 ## Setting Up Backend
+
+go to the backend folder using the following command:
+```bash
+cd backend
+```
+create a python virtual environment and activate it using the following commands in the command prompt:
+```bash
+python -m venv env
+.\env\Scripts\activate.bat
+```
+Now install the required libraries in the requirements.txt file using the following command:
+```bash
+pip install -r requirements.txt
+```
+!! if there are any error while downloading the libraries, upgrade pip and try again!!
 
 Include instructions for setting up the frontend part of your application here.
 
