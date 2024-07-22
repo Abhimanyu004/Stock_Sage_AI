@@ -26,7 +26,7 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 
 Download the repository and extract it or clone the repository using the following command:
 ```bash
-git clone
+git clone https://github.com/Abhimanyu004/Stock_Sage_AI.git
 ```
 
 
