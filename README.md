@@ -22,7 +22,7 @@ Here are the technologies used in this project:
 
 <div>
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="margin-right: 10px;" />
-  <img src="./screenshots/flask.png" alt="Flask" width="50" style="margin-right: 10px;" />
+  <img src="./screenshot/flask.png" alt="Flask" width="50" style="margin-right: 10px;" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/MongoDB_Logo.svg" alt="MongoDB" width="50" style="margin-right: 10px;" />
   <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="margin-right: 10px;" />
   <img src="https://raw.githubusercontent.com/huggingface/transformers/main/src/transformers/utils/logging.py" alt="LangChain" width="50" style="margin-right: 10px;" />  
