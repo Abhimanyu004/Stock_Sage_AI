@@ -67,7 +67,7 @@ go into the frontend using the following command:
 ```bash
 cd forntend
 ```
-install the required react libraries using the following command:
+install the required react libraries using the following command: **make sure you have npm and node installed**
 ```bash
 npm install
 ```
