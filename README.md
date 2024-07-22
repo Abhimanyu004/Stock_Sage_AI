@@ -16,6 +16,8 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 
 ## How it Works
 
+[![Watch this video](https://img.youtube.com/vi/E0rV6KdhvxQ/0.jpg)](https://youtu.be/E0rV6KdhvxQ)
+
 ## TechStack
 
 Here are the technologies used in this project:
