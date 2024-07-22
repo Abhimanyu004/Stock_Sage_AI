@@ -23,9 +23,9 @@ Here are the technologies used in this project:
 <div>
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="margin-right: 100px;" />
   <img src="./screenshot/flask.png" alt="Flask" width="100" style="margin-right: 100px;" />
-  <img src="./screenshot/pngwing.com (12).png" alt="MongoDB" width="50" style="margin-right: 100px;" />
+  <img src="./screenshot/pngwing.com (12).png" alt="MongoDB" width="80" style="margin-right: 100px;" />
   <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="margin-right: 100px;" />
-  <img src="./screenshot/1684267676484.png" alt="LangChain" width="150" style="margin-right: 100px;" />  
+  <img src="./screenshot/1684267676484.png" alt="LangChain" width="200" style="margin-right: 100px;" />  
   <img src="./screenshot/6968821_preview.png" alt="Python" width="100" />
 </div>
 
