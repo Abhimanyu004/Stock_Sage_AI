@@ -3,9 +3,10 @@
 1. [About Project](#about-project)
 2. [How it Works](#how-it-works)
 3. [Requirements](#requirements)
-4. [Setting Up Backend](#setting-up-backend)
-5. [Setting Up Frontend](#setting-up-frontend)
-6. [Import Notice](#import-notice)
+4. [Running the webapp](#running-the-webapp)
+5. [Setting Up Backend](#setting-up-backend)
+6. [Setting Up Frontend](#setting-up-frontend)
+7. [Import Notice](#import-notice)
 
 ## Requirements
 
