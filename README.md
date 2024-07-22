@@ -51,10 +51,12 @@ git clone https://github.com/Abhimanyu004/Stock_Sage_AI.git
 
 go to the backend folder using the following command:
 
-go to the following website(google ai studio) https://aistudio.google.com/app/apikey and create a new api key and copy paste that key in the .env folder in this directory
 ```bash
 cd backend
 ```
+
+go to the following website(google ai studio) https://aistudio.google.com/app/apikey and create a new api key and copy paste that key in the .env folder in this directory
+
 create a python virtual environment and activate it using the following commands in the command prompt:
 ```bash
 python -m venv env
