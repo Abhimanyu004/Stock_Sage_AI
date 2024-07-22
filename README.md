@@ -21,7 +21,7 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 Here are the technologies used in this project:
 
 <div>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="margin-right: 1000px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="margin-right: 2rem;" />
   <img src="./screenshot/flask.png" alt="Flask" width="100" style="margin-right: 1000px;" />
   <img src="./screenshot/pngwing.com (12).png" alt="MongoDB" width="70" style="margin-right: 1000px;" />
   <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="margin-right: 1000px;" />
