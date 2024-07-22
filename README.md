@@ -3,10 +3,11 @@
 1. [About Project](#about-stock-sage-ai)
 2. [How it Works](#how-it-works)
 3. [Requirements](#requirements)
-4. [Running the webapp](#running-the-webapp)
+4. [Downloading the Repo](#downloading-the-repo)
 5. [Setting Up Backend](#setting-up-backend)
 6. [Setting Up Frontend](#setting-up-frontend)
-7. [Import Notice](#import-notice)
+7. [Starting the Webapp](#starting-the-webapp)
+8. [Import Notice](#import-notice)
 
 ## About Stock Sage AI
 
@@ -22,7 +23,7 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 - **React**: With Vite
 - **MongoDB**: Required for database management
 
-## Running the webapp
+## Downloading the Repo
 
 Download the repository and extract it or clone the repository using the following command:
 ```bash
@@ -46,12 +47,29 @@ pip install -r requirements.txt
 ```
 !! if there are any error while downloading the libraries, upgrade pip and try again!!
 
-Include instructions for setting up the frontend part of your application here.
-
 ## Setting Up Backend
 
-Include instructions for setting up the backend part of your application here.
+go into the frontend using the following command:
+```bash
+cd forntend
+```
+install the required react libraries using the following command:
+```bash
+npm install
+```
+
+## Stating the webapp
+open two terminal side to side, one for the flask server and the other for the react frontend and run the following command:
+
+./Stock_Sage_AI/backend
+```bash
+flask run
+```
+./Stock_Sage_AI/frontend
+```bash
+npm run dev
+```
 
 ## Import Notice
 
-Add any important information regarding imports or dependencies here.
+**While running the app for the first time, it may download and install safe-tensors for 2.5gb, it only happens first time.**
