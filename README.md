@@ -18,27 +18,16 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 
 ## TechStack
 
-## Tech Stack
-
 Here are the technologies used in this project:
 
-- **React**
-  ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-
-- **Flask**
-  ![Flask](https://flask.palletsprojects.com/en/2.0.x/_static/flask-logo.png)
-
-- **MongoDB**
-  ![MongoDB](https://upload.wikimedia.org/wikipedia/commons/4/47/MongoDB_Logo.svg)
-
-- **Hugging Face**
-  ![Hugging Face](https://huggingface.co/front/assets/huggingface_logo.svg)
-
-- **LangChain**
-  ![LangChain](https://avatars.githubusercontent.com/u/94605989?s=200&v=4) <!-- Placeholder image URL -->
-
-- **Python**
-  ![Python](https://www.python.org/community/logos/python-logo-master-v3-TM.png)
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="margin-right: 10px;" />
+  <img src="https://flask.palletsprojects.com/en/2.0.x/_static/flask-logo.png" alt="Flask" width="50" style="margin-right: 10px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/MongoDB_Logo.svg" alt="MongoDB" width="50" style="margin-right: 10px;" />
+  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="margin-right: 10px;" />
+  <img src="https://avatars.githubusercontent.com/u/94605989?s=200&v=4" alt="LangChain" width="50" style="margin-right: 10px;" /> <!-- Placeholder image URL -->
+  <img src="https://www.python.org/community/logos/python-logo-master-v3-TM.png" alt="Python" width="50" />
+</div>
 
 
 ## Requirements
