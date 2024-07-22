@@ -67,7 +67,7 @@ function Symboldetail() {
             <div className="d-flex justify-content-center">
             <h1 className="mt-3 border border-3 border-top-0 border-start-0 border-end-0 border-warning pb-3" style={{'color':'rgb(60,60,60)'}}><b>Sage AI Analysis: {id}</b></h1>
             </div>
-            <SageModal isOpen={isModalOpen} onClose={handleCloseModal}>
+            <SageModal isOpen={isModalOpen} onClose={handleCloseModal} passsymbol={id}>
                 Select an item to add to your watchlist
             </SageModal>
             <button onClick={handleAddClick} className="btn btn-warning mt-4">Ask Sage</button>
