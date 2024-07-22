@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-function SageModal({ isOpen, onClose }) {
-  const [symbol, setSymbol] = useState('BPCL');
+function SageModal({ isOpen, onClose, passsymbol }) {
+  const [symbol, setSymbol] = useState(passsymbol);
   const [question, setQuestion] = useState('');
   const [response, setResponse] = useState('');
   const [indexLoaded, setIndexLoaded] = useState(false); 
+  const [loading, setLoading] = useState(false); // Add loading state
 
   useEffect(() => {
     if (isOpen) {
@@ -35,6 +36,7 @@ function SageModal({ isOpen, onClose }) {
   };
 
   const askQuestion = async () => {
+    setLoading(true); // Set loading to true before starting the request
     try {
       const response = await fetch('http://localhost:5000/ask', {
         method: 'POST',
@@ -45,14 +47,14 @@ function SageModal({ isOpen, onClose }) {
       });
       if (response.ok) {
         const data = await response.json();
-        console.log(data)
         setResponse(data);
-        console.log(response);
       } else {
         console.error('There was an error asking the question!');
       }
     } catch (error) {
       console.error('There was an error asking the question!', error);
+    } finally {
+      setLoading(false); // Set loading to false after the request completes
     }
   };
 
@@ -64,7 +66,7 @@ function SageModal({ isOpen, onClose }) {
   return isOpen ? (
     <div className="modal-container row rounded">
       <div className="d-flex justify-content-center">
-      <h3 className="border border-warning border-3 border-top-0 border-start-0 border-end-0 pb-2" style={{'color':'rgb(60,60,60)'}}>Chat with Sage</h3>
+        <h3 className="border border-warning border-3 border-top-0 border-start-0 border-end-0 pb-2" style={{'color':'rgb(60,60,60)'}}>Chat with Sage</h3>
       </div>
       <form onSubmit={handleSubmit}>
         <p style={{'color':'rgb(60,60,60)'}}>Ask your question:</p>
@@ -75,16 +77,20 @@ function SageModal({ isOpen, onClose }) {
           className="form-control"
         />
         <div className="mt-4 d-flex justify-content-between">
-        <button type="submit" disabled={!indexLoaded} className="btn btn-warning">Ask</button>
-        <button onClick={onClose} className="btn btn-danger">Close</button>
+          <button type="submit" disabled={!indexLoaded} className="btn btn-warning">Ask</button>
+          <button onClick={onClose} className="btn btn-danger">Close</button>
         </div>
       </form>
-      {response && (
-        <div className="mt-3">
-          <h2>Response</h2>
-          <p style={{'color':'rgb(60,60,60)'}}><b style={{'color':'rgb(180, 180,180)'}}>Sage:</b> {response}</p>
-        </div>
-      )}
+      <div className="mt-3">
+        {loading ? (
+          <p style={{'color':'rgb(60,60,60)'}}>Generating Response...</p>
+        ) : response ? (
+          <div>
+            <h2>Response</h2>
+            <p style={{'color':'rgb(60,60,60)'}}><b style={{'color':'rgb(180, 180,180)'}}>Sage:</b> {response}</p>
+          </div>
+        ) : null}
+      </div>
     </div>
   ) : null;
 }
