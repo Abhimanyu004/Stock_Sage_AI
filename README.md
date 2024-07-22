@@ -21,11 +21,11 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 Here are the technologies used in this project:
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="display:inline-block; margin-right: 10px;" />
-  <img src="./screenshot/flask.png" alt="Flask" width="100" style="display:inline-block; margin-right: 10px;" />
-  <img src="./screenshot/pngwing.com (12).png" alt="MongoDB" width="70" style="display:inline-block; margin-right: 10px;" />
-  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="display:inline-block; margin-right: 10px;" />
-  <img src="./screenshot/1684267676484.png" alt="LangChain" width="220" style="display:inline-block; margin-right: 10px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" style="display:inline-block; margin-right: 30px;" />
+  <img src="./screenshot/flask.png" alt="Flask" width="100" style="display:inline-block; margin-right: 30px;" />
+  <img src="./screenshot/pngwing.com (12).png" alt="MongoDB" width="70" style="display:inline-block; margin-right: 30px;" />
+  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="display:inline-block; margin-right: 30px;" />
+  <img src="./screenshot/1684267676484.png" alt="LangChain" width="220" style="display:inline-block; margin-right: 30px;" />
   <img src="./screenshot/6968821_preview.png" alt="Python" width="140" style="display:inline-block;" />
 </p>
 
