@@ -62,7 +62,7 @@ function Home({ setUsername }) {
   };
 
   return (
-    <div className='row'>
+    <div className='row' style={{'color':'rgb(60,60,60)'}}>
       <form onSubmit={handleLogin} className='col-6 p-5 pt-5'>
         <div className='row border border-warning border-3 rounded p-4'>
           <div className='d-flex justify-content-center'>
@@ -125,7 +125,7 @@ function Home({ setUsername }) {
       <p>{response}</p>
       <p>{signupResponse}</p>
 
-      <div>
+      <div className='mb-5 ms-2 me-2'>
         <div className='d-flex justify-content-center row'>
         <div className='d-flex justify-content-center'>
         <h3 className='border border-3 border-warning border-top-0 border-start-0 border-end-0 pb-2'>About Us</h3>
