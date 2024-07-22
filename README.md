@@ -25,8 +25,8 @@ Here are the technologies used in this project:
   <img src="./screenshot/flask.png" alt="Flask" width="100" style="margin-right: 100px;" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/MongoDB_Logo.svg" alt="MongoDB" width="50" style="margin-right: 100px;" />
   <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="50" style="margin-right: 100px;" />
-  <img src="https://raw.githubusercontent.com/huggingface/transformers/main/src/transformers/utils/logging.py" alt="LangChain" width="50" style="margin-right: 100px;" />  
-  <img src="https://www.python.org/community/logos/python-logo-master-v3-TM.png" alt="Python" width="100" />
+  <img src="./screenshot/1684267676484.png" alt="LangChain" width="50" style="margin-right: 100px;" />  
+  <img src="./screenshot/6968821_preview.png" alt="Python" width="100" />
 </div>
 
 
