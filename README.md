@@ -24,7 +24,10 @@ Sage AI is an intelligent system designed to assist new investors in navigating 
 
 ## Running the webapp
 
-Dowload the repository and extract it or clone the repository using the following command:
+Download the repository and extract it or clone the repository using the following command:
+```bash
+git clone
+```
 
 
 ## Setting Up Backend
