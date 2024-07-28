@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ```
 !! if there are any error while downloading the libraries, upgrade pip and try again!!
 
-## Setting Up Backend
+## Setting Up Frontend
 
 go into the frontend using the following command:
 ```bash
