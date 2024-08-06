@@ -144,7 +144,7 @@ def get_current_price(symbol):
 
 
 def explore(day, month, year):
-    url = "https://www.livemint.com/market/latest-markets-today-live-updates-july-30-2024-11722300382232.html"
+    url = "https://www.livemint.com/market/latest-markets-today-live-updates-august-6-2024-11722904810843.html"
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
     live_sec_div = soup.find_all('div', class_='liveSec')
